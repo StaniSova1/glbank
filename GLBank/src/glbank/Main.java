@@ -5,9 +5,11 @@
  */
 package glbank;
 
+import ui.LoginForm;
+
 /**
  *
- * @author Stanislav
+ * @author client
  */
 public class Main {
 
@@ -16,6 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new LoginForm().setVisible(true);
     }
     
 }
